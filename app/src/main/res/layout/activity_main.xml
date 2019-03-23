@@ -5,21 +5,87 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:weightSum="10"
-    android:background="#f20">
-    <TextView
-        android:layout_weight="2"
-        android:background="#E0BC4E"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:text="TextView 1" />
-    <TextView
-        android:layout_weight="3"
-        android:background="#5D6769"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:text="TextView 2" />
+        android:layout_height="0dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#f20"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="A"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#44A772"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="B"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#BEC462"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="C"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#B39898"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="D"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#f20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="A"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#44A772"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#BEC462"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="C"
+            android:textSize="30sp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#B39898"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="D"
+            android:textSize="30sp"/>
+    </LinearLayout>
 
 
 </LinearLayout>
