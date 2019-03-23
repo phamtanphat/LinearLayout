@@ -16,7 +16,7 @@
         android:text="TextView 1" />
     <TextView
         android:layout_weight="3"
-        android:background="#29AFC7"
+        android:background="#5D6769"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:text="TextView 2" />
